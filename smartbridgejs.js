@@ -1,4 +1,3 @@
-// ✅ Hardcoded flight data (no need for JSON file or fetch)
 const flights = [
   {
     id: "AI101",
@@ -65,12 +64,10 @@ function renderFlights(flightList) {
   showSection('results');
 }
 
-// ✅ Show all flights on load
 window.addEventListener('DOMContentLoaded', () => {
   renderFlights(flights);
 });
 
-// ✅ Filter flights on search
 document.getElementById('flightSearchForm').addEventListener('submit', function (e) {
   e.preventDefault();
   const from = document.getElementById('from').value.trim().toLowerCase();
