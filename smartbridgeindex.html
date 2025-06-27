@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlightFinder - All-in-One</title>
+  <link rel="stylesheet" href="smartbridgestyle.css" />
+</head>
+<body>
+  <header>
+    <h1>FlightFinder</h1>
+    <nav>
+      <button onclick="showSection('search')">Search Flights</button>
+      <button onclick="showSection('results')">Flight Results</button>
+      <button onclick="showSection('booking')">Booking</button>
+      <button onclick="showSection('admin')">Admin</button>
+      <button onclick="showSection('results')">All Flights</button>
+
+    </nav>
+  </header>
+
+  <!-- Flight Search Section -->
+  <section id="search" class="page-section">
+    <h2>Search Flights</h2>
+    <form id="flightSearchForm">
+      <input type="text" id="from" placeholder="From (e.g. NYC)" required />
+      <input type="text" id="to" placeholder="To (e.g. Paris)" required />
+      <input type="date" id="departure" required />
+      <input type="date" id="return" required />
+      <select id="class">
+        <option>Economy</option>
+        <option>Business</option>
+      </select>
+      <input type="number" id="passengers" min="1" value="1" required />
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <!-- Flight Results Section -->
+  <section id="results" class="page-section" style="display:none;">
+    <h2>Available Flights</h2>
+    <div id="flight-results"></div>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="booking" class="page-section" style="display:none;">
+    <h2>Confirm Booking</h2>
+    <form id="bookingForm">
+      <select>
+        <option>Window</option>
+        <option>Aisle</option>
+      </select><br/>
+      <input type="text" placeholder="Card Number" required /><br/>
+      <button type="submit">Confirm</button>
+    </form>
+  </section>
+
+  <!-- Admin Section -->
+  <section id="admin" class="page-section" style="display:none;">
+    <h2>Admin Panel</h2>
+    <form id="addFlightForm">
+      <input type="text" placeholder="Flight ID" required />
+      <input type="text" placeholder="Airline" required />
+      <input type="text" placeholder="From" required />
+      <input type="text" placeholder="To" required />
+      <input type="datetime-local" required />
+      <input type="number" placeholder="Price" required />
+      <button type="submit">Add Flight</button>
+    </form>
+  </section>
+
+  <script src="smartbridgejs.js"></script>
+</body>
+</html>

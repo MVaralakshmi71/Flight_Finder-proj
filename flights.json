@@ -1,0 +1,90 @@
+[
+  {
+    "id": "DL123",
+    "airline": "Delta Airlines",
+    "from": "New York City",
+    "to": "Paris",
+    "departure": "2025-04-10T10:00:00",
+    "price": 1200
+  },
+  {
+    "id": "AF456",
+    "airline": "Air France",
+    "from": "New York City",
+    "to": "Paris",
+    "departure": "2025-04-10T15:00:00",
+    "price": 800
+  },
+  {
+    "id": "AI101",
+    "airline": "Air India",
+    "from": "Delhi",
+    "to": "Mumbai",
+    "departure": "2025-07-01T07:00:00",
+    "price": 550
+  },
+  {
+    "id": "6E302",
+    "airline": "IndiGo",
+    "from": "Bangalore",
+    "to": "Hyderabad",
+    "departure": "2025-07-02T09:30:00",
+    "price": 300
+  },
+  {
+    "id": "SG406",
+    "airline": "SpiceJet",
+    "from": "Hyderabad",
+    "to": "Delhi",
+    "departure": "2025-07-03T14:45:00",
+    "price": 650
+  },
+  {
+    "id": "AI204",
+    "airline": "Air India",
+    "from": "Mumbai",
+    "to": "Kurnool",
+    "departure": "2025-07-05T06:20:00",
+    "price": 400
+  },
+  {
+    "id": "EK530",
+    "airline": "Emirates",
+    "from": "Delhi",
+    "to": "Dubai",
+    "departure": "2025-07-06T11:00:00",
+    "price": 1000
+  },
+  {
+    "id": "BA275",
+    "airline": "British Airways",
+    "from": "Hyderabad",
+    "to": "New York City",
+    "departure": "2025-07-07T03:00:00",
+    "price": 1500
+  },
+  {
+    "id": "QR789",
+    "airline": "Qatar Airways",
+    "from": "Kurnool",
+    "to": "Mumbai",
+    "departure": "2025-07-08T18:00:00",
+    "price": 350
+  },
+  {
+    "id": "6E988",
+    "airline": "IndiGo",
+    "from": "Bangalore",
+    "to": "Kurnool",
+    "departure": "2025-07-09T20:15:00",
+    "price": 270
+  },
+  {
+    "id": "SG707",
+    "airline": "SpiceJet",
+    "from": "Kurnool",
+    "to": "Hyderabad",
+    "departure": "2025-07-10T08:00:00",
+    "price": 220
+  }
+]
