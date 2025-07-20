@@ -60,6 +60,3 @@ When adding a flight via the Admin Panel, include:
 * 🛫 Real-time flight APIs for dynamic data  
 * 💳 Integrate payment gateway simulation  
 * 🎫 Seat selection system with availability  
-```
-
----
